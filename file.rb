@@ -34,6 +34,10 @@ def pronoun(number)
   end
 end
 
-def quantity
-  "no more"
+def quantity(number=:FIXME)
+  if number == 0
+    "no more"
+  else
+    number
+  end
 end
