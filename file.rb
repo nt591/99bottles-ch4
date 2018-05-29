@@ -7,7 +7,7 @@ def verse(number)
     "#{quantity(successor(number))} #{container(number-1)} of  beer  on  the wall.\n"
   else
     "#{quantity(number).capitalize}  #{container(number)} of  beer  on  the wall, " +
-    "#{number}  #{container(number)} of  beer.\n" +
+    "#{quantity(number)} #{container(number)} of  beer.\n" +
     "#{action(number)}" +
     "#{quantity(successor(number))} #{container(number-1)} of  beer  on  the wall.\n"
   end
